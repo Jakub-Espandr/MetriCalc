@@ -100,7 +100,7 @@ MetriCalc/
 
 ## 🔐 License
 
-This project is licensed under the **MIT License**  
+This project is licensed under the **Non-Commercial Public License (NCPL v1.0)**  
 © 2025 Jakub Ešpandr – Born4Flight, FlyCamCzech
 
 See the [LICENSE](https://github.com/Jakub-Espandr/MetriCalc/raw/main/LICENSE) file for full terms.
