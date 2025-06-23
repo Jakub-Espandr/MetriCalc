@@ -7,6 +7,13 @@
 <h1 align="center">MetriCalc</h1>
 <p align="center"><em>(Born4Flight | FlyCamCzech)</em></p>
 
+<p align="center">
+  <a href="https://ibb.co/hJVjrB4j">
+    <img src="https://i.ibb.co/nNjv47Yv/Metri-Calc.png" alt="UAV AreaCalc Metri-Calc Interface" width="50%"/>
+  </a>
+</p>
+
+
 ## Overview
 MetriCalc is a clean, efficient tool designed to calculate key statistical metrics from confusion matrices exported from ArcGIS Pro or other platforms. With support for single and batch processing, multi-language output, and polished export to Excel, MetriCalc is ideal for rapid performance evaluation in classification tasks.
 
