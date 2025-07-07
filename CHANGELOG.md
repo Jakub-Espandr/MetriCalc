@@ -1,5 +1,20 @@
 # Changelog
 
+## [0.1.1] - 2025-07-07
+
+### Added
+- Support for CSV files where the `ClassValue` column contains descriptive text after the class code (e.g., `C_1 - nezasazena uroda`).
+- Automatic detection and processing of any number of classes (`C_1`, `C_2`, `C_3`, ...).
+
+### Fixed
+- Fixed a crash when loading CSV files where `ClassValue` did not exactly match `C_1`, `C_2`, etc.
+- Improved error messages for invalid or empty data in CSV files.
+
+### Changed
+- Metrics calculation is now robust to various CSV formats and works for any number of classes.
+
+---
+
 ## [0.1.0] - 2025-06-22
 
 ### Added

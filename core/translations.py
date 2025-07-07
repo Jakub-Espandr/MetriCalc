@@ -118,4 +118,14 @@ TRANSLATIONS = {
         'excel_metrics_sheet': 'Metrics',
         'excel_data_sheet': 'Data'
     }
-} 
+}
+
+def get_class_names(num_classes, language='cs'):
+    """Generate class names based on the number of classes found"""
+    if language == 'cs':
+        class_names = [f"C_{i+1}" for i in range(num_classes)]
+        class_names.append("Průměr")
+    else:  # English
+        class_names = [f"C_{i+1}" for i in range(num_classes)]
+        class_names.append("Average")
+    return class_names 
